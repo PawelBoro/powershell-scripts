@@ -1,0 +1,270 @@
+{
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.tabSize": 2
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.tabSize": 2
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+    "editor.rulers": [
+      115
+    ],
+    "files.trimTrailingWhitespace": false
+  },
+  "[powershell]": {
+    "editor.defaultFormatter": "ms-vscode.powershell",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.rulers": [
+      115
+    ],
+    "editor.semanticHighlighting.enabled": true,
+    "editor.tabSize": 4
+  },
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      79,
+      88
+    ],
+    "editor.tabSize": 4
+  },
+  "[shellscript]": {
+    "editor.tabSize": 2
+  },
+  "[terraform-vars]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.tabSize": 2
+  },
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.tabSize": 2
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.tabSize": 2
+  },
+  "better-comments.tags": [
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#ff2d00",
+      "italic": false,
+      "strikethrough": false,
+      "tag": "!",
+      "underline": false
+    },
+    {
+      "backgroundColor": "transparent",
+      "bold": true,
+      "color": "#42b883",
+      "italic": true,
+      "strikethrough": false,
+      "tag": "region",
+      "underline": true
+    },
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#42b883",
+      "italic": true,
+      "strikethrough": false,
+      "tag": "endregion",
+      "underline": true
+    },
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#9c97fb",
+      "italic": false,
+      "strikethrough": false,
+      "tag": "?",
+      "underline": false
+    },
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#474747",
+      "italic": false,
+      "strikethrough": true,
+      "tag": "//",
+      "underline": false
+    },
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#ff8c00",
+      "italic": false,
+      "strikethrough": false,
+      "tag": "todo",
+      "underline": false
+    },
+    {
+      "backgroundColor": "transparent",
+      "bold": true,
+      "color": "#98c379",
+      "italic": false,
+      "strikethrough": false,
+      "tag": "*",
+      "underline": false
+    },
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#b8d7a3",
+      "italic": true,
+      "strikethrough": false,
+      "tag": "%%",
+      "underline": false
+    },
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#3498db",
+      "italic": false,
+      "strikethrough": false,
+      "tag": "@",
+      "underline": false
+    },
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#3498db",
+      "italic": false,
+      "strikethrough": false,
+      "tag": "http",
+      "underline": false
+    },
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#daadd6",
+      "italic": true,
+      "strikethrough": false,
+      "tag": "~",
+      "underline": false
+    },
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#666666",
+      "italic": true,
+      "strikethrough": false,
+      "tag": "##",
+      "underline": false
+    },
+    {
+      "backgroundColor": "transparent",
+      "bold": false,
+      "color": "#888888",
+      "italic": true,
+      "strikethrough": false,
+      "tag": ":",
+      "underline": false
+    }
+  ],
+  "diffEditor.codeLens": true,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "editor.autoIndent": "advanced",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.formatOnSaveMode": "file",
+  "editor.formatOnType": true,
+  "editor.guides.bracketPairs": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.insertSpaces": true,
+  "editor.matchBrackets": "near",
+  "editor.renderWhitespace": "boundary",
+  "errorLens.fontStyleItalic": true,
+  "errorLens.messageTemplate": "$message ($source)",
+  "files.autoSaveDelay": 10000,
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "flake8.args": [
+    "--max-line-length=88",
+    "--ignore=E402,F841,F401,E302,E305"
+  ],
+  "git.autofetch": true,
+  "git.branchProtection": [
+    "main",
+    "master",
+    "production",
+    "prod",
+    "dev",
+    "develop"
+  ],
+  "git.replaceTagsWhenPull": true,
+  "gitlens.launchpad.ignoredOrganizations": [
+    "procter-gamble"
+  ],
+  "gitlens.launchpad.indicator.enabled": false,
+  "gitlens.launchpad.indicator.polling.enabled": false,
+  "isort.args": [
+    "--profile",
+    "black"
+  ],
+  "jupyter.interactiveWindow.textEditor.autoAddNewCell": false,
+  "jupyter.interactiveWindow.textEditor.executeSelection": true,
+  "markdownlint.config": {
+    "MD013": false,
+    "MD024": false,
+    "MD052": false
+  },
+  "powershell.codeFormatting.addWhitespaceAroundPipe": true,
+  "powershell.codeFormatting.autoCorrectAliases": true,
+  "powershell.codeFormatting.pipelineIndentationStyle": "NoIndentation",
+  "powershell.codeFormatting.preset": "OTBS",
+  "powershell.codeFormatting.trimWhitespaceAroundPipe": true,
+  "powershell.codeFormatting.useConstantStrings": true,
+  "powershell.codeFormatting.useCorrectCasing": true,
+  "powershell.codeFormatting.whitespaceBetweenParameters": true,
+  "powershell.integratedConsole.startInBackground": true,
+  "powershell.integratedConsole.suppressStartupBanner": true,
+  "pylint.args": [
+    "--disable=broad-except,abstract-class-instantiated",
+    "--max-line-length=88",
+    "--good-names=df,ex,sp"
+  ],
+  "python.languageServer": "Pylance",
+  "python.terminal.activateEnvironment": false,
+  "remote.downloadExtensionsLocally": true,
+  "remoteHub.gitProtocol": "ssh",
+  "scm.alwaysShowRepositories": true,
+  "scm.diffDecorationsIgnoreTrimWhitespace": "true",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "terminal.integrated.persistentSessionReviveProcess": "never",
+  "terminal.integrated.tabs.enabled": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.iconTheme": "vscode-icons",
+  "remote.autoForwardPortsSource": "hybrid",
+  "editor.fontFamily": "'Cascadia Code PL','FiraCode Nerd Font',Consolas,'Courier New',monospace",
+  "terminal.integrated.fontFamily": "'Cascadia Code PL', 'FiraCode Nerd Font'",
+  "terminal.integrated.defaultProfile.linux": "pwsh",
+  "terminal.integrated.copyOnSelection": true,
+  "editor.formatOnSave": true,
+  "github.copilot.advanced": {
+    "authProvider": "github"
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "workbench.settings.applyToAllProfiles": [
+    "editor.fontFamily"
+  ],
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "redhat.telemetry.enabled": false,
+  "workbench.sideBar.location": "right"
+}
